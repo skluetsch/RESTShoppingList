@@ -2,6 +2,20 @@
 
 This is a work in progress backend project.
 
+## requironments
+* PHP-5
+* php-sqlight
+* composer
+
+## hot wo use it
+first of all, open a shell and *cd* to the *RESTShoppingList*-folder
+you have to install the composer dependencies
+`composer install` or `composer up`
+after tat, you can run it with the *PHP Built-in web server*
+`php -S localhost:8000`
+you can run the API tests to check, if everything works like intendet
+`codecept run` or `vendor/codeception/codeception/codecept run`
+
 ## What is it about?
 I hate to write paper lists for supermarket, so this is my REST list for the supermarket.
 
