@@ -7,8 +7,8 @@ I hate to write paper lists for supermarket, so this is my REST list for the sup
 
 ## How dose it work?
 There are two routs implemented.
-| Routs | description |
-|-------|-------------|
+| Routs                     | description |
+| ------------------------- | ----------- |
 | `"GET /rels"`             |brings you a complete List of all useable REST interfaces |
 | `"GET /list/elements"`    |returns your full shopping list |
 | `"POST /list/elements"`   |adds one element to your list - if you wont to show more, you need to access it more often. Just REST-Style |
