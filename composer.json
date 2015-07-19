@@ -1,0 +1,15 @@
+{
+    "require": {
+        "slim/slim": "^2.6",
+        "codeception/codeception": "*",
+        "codeception/phpbuiltinserver": "~1.2.1",
+        "flow/jsonpath": "0.2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "tests\\": "tests/",
+            "Modules\\": "app/modules/",
+            "Controller\\": "app/controller/"
+        }
+    }
+}
